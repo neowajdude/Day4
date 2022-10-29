@@ -1,0 +1,125 @@
+
+/* Header part start */
+.header{
+    height: 100px;
+    width: 1200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 60px;
+    padding: 20px;
+}
+.logo h1{
+    padding-top: 10px;
+    color: white;
+    float: right;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 12px;
+    font-size: 22px;
+    color: white;
+    line-height: 60px;
+    border: 1px solid transparent;
+}
+.menu ul li a:hover{
+    border: 1px solid white;
+    transition: .4s;
+}
+/* Header part end */
+/* Slider Part Start */
+.slider{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background: linear-gradient(45deg,rgb(0, 0, 200,.6),rgba(30, 121, 0, 0.5)), url(images/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.slider h1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.slider p{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+}
+.slider a{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    text-decoration: none;
+    padding: 6px 6px;
+    border: 2px solid rgb(20, 6, 124,.7);
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(8, 0, 70);
+    background-color: white;
+}
+.slider a:hover{
+    background-color: rgb(19, 19, 207,.8);
+    border: 2px solid rgb(19, 19, 207,.8);
+    color: white;
+    transition: .4s;
+}
+/* Slider Part End */
+/* Hero part start */
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+.service-title{
+    margin-top: 30px;
+    text-align: center;
+}
+.service-box{
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(100, 255, 255);
+    box-shadow: 2px 2px 5px rgb(255, 211, 211);
+}
+.card img{
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    background-color: tomato;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+/* Hero part end */
